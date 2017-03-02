@@ -48,7 +48,7 @@
 
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -59,32 +59,62 @@
 </head>
 
 <body id="page-top">
-    <section>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top">  <img src="./img/logo-cocked-white.svg" alt="Know What Is In Your Soap Logo" class='logo-nav-bar'></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li>
+                      <a class="page-scroll" href="#about">Overall</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#services">Ingredients</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#portfolio">Soap Grades</a>
+                  </li>
+                  <li>
+                      <a class="page-scroll" href="#contact">Share</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+  </nav>
+    <section class='results'>
         <div class="header-content">
             <div class="header-content-inner">
-                <img src="./img/logo.svg" alt="Know What Is In Your Soap Logo" class='logo-main'>
-                <h1 id="homeHeading">KNOW WHAT’S IN <br> YOUR SOAP?</h1>
-                <hr>
+                <h1 class="resultsDetailHeading">TIDE: LAUNDY SOAP</h1>
+                <h5 class='searchTerm'>Overall Score:   <div>
+                      <h2 class='grade center-block ' style='    background-color: #f0ad4e; color: white;'>C</h2>
+                  </div>
+                </h5>
+                <p class='resultDetailOneLine'>Maecenas faucibus mollis interdum.Maecenas faucibus mollis interdum.</p>
+                  <img src="./img/tide.png" alt="Tide Bottle" class='img-responsive result-detail-image center-block'>
+                <br><br>
                 <div class="row">
-                    <div class="col-md-6 col-md-push-3">
-                        <form name="sentMessage" id="contactForm" novalidate>
-                            <div class="row">
-                                <div class="col-md-12">
-                                  <div class="form-group">
-                                      <input class="form-control" placeholder="SOAP BRAND EX. TIDE PODS *" id="brand">
-                                      <p class="help-block text-danger"></p>
-                                  </div>
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="EMAIL" id="email">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
+                    <div class="col-md-12 ">
+                        <h3><span class='score'>24</span> <span class='average'>/30</span></h3>
+                        <div class="progress grade-bar center-block">
+                          <div class="progress-bar progress-bar-warning" style="width: 80%"></div>
+                        </div>
+                        <h4 class='section-title'>Ingredients</h4>
+                        <p class='resultDetailOneLine'>Maecenas faucibus mollis interdum.Maecenas faucibus mollis interdum.</p>
 
-                            </div>
-                        </form>
                     </div>
                 </div>
-                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out Now</a>
+                <br><br><br>
+                <p class='try-again'>Like what you saw?</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">SEARCH ANOTHER BRAND</a>
             </div>
             <br> <br> <br>
             <b class='power'>POWERED BY:</b> <br>
@@ -92,6 +122,7 @@
         </div>
         <p class='copyright'>Copyright 2017 Cleancult, Inc.</p>
     </section>
+
 
 </body>
 

@@ -70,7 +70,7 @@ aside {
 }
 
 .navbar-default {
-    background-color: white;
+    background-color: #3498db;
     border-color: rgba(34, 34, 34, 0.05);
     font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
     -webkit-transition: all 0.35s;
@@ -118,7 +118,7 @@ aside {
 
 @media (min-width: 768px) {
     .navbar-default {
-        background-color: transparent;
+        background-color: #3498db;
         border-color: rgba(255, 255, 255, 0.3);
     }
     .navbar-default .navbar-header .navbar-brand {
@@ -434,6 +434,21 @@ body {
     font-weight: 800 !important;
 }
 
+.resultsDetailHeading {
+    color: #333 !important;
+    font-size: 45px !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 800 !important;
+    margin-top: 40px !important;
+}
+
+.resultDetailOneLine {
+    color: gray !important;
+    font-size: 17px !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 600 !important;
+}
+
 .searchTerm {
     color: gray;
     font-size: 30px;
@@ -456,6 +471,11 @@ body {
 
 .result-image {
     max-width: 100px;
+    text-align: center;
+}
+
+.result-detail-image {
+    max-width: 160px;
     text-align: center;
 }
 
@@ -491,6 +511,11 @@ body {
     border-radius: 300px;
     max-width: 100px;
     font-size: 90px;
+    -ms-transform: rotate(10deg);
+    /* IE 9 */
+    -webkit-transform: rotate(10deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(15deg);
 }
 
 .letter-grade {
@@ -523,4 +548,34 @@ body {
     .results-text h5 {
         text-align: center !important;
     }
+}
+
+.logo-nav-bar {
+    width: 20px;
+}
+
+.score {
+    color: #f0ad4e;
+    font-size: 70px !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 800 !important;
+}
+
+.average {
+    color: #e6e6e6;
+    font-size: 30px !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 800 !important;
+}
+
+.grade-bar {
+    height: 10px !important;
+    width: 40%;
+}
+
+.section-title {
+    font-size: 50px !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 400 !important;
+    color: #333;
 }
