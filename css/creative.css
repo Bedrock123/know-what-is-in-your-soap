@@ -424,9 +424,22 @@ body {
     margin-bottom: 20px;
 }
 
+.logo-loading {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
 #homeHeading {
     color: #3498db;
     font-size: 80px;
+}
+
+#loading-text {
+    color: #3498db;
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600 !important;
+    line-height: 160%;
 }
 
 @media (max-width: 800px) {
